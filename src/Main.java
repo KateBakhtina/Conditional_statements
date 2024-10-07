@@ -13,8 +13,7 @@ public class Main {
             int bonus = additiveSum / 100;
             System.out.println("Итоговый счёт: " + (resultSum + bonus));
             System.out.println("Количество бонусных рублей: " + bonus);
-        }
-        else {
+        } else {
             System.out.println("Итоговый счёт: " + resultSum);
         }
 
